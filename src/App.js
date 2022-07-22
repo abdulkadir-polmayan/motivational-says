@@ -58,8 +58,14 @@ console.log(formData)
               <form>
                   <textarea placeholder='your motivation...' onChange={topText}/>
                   <input placeholder='inspired image...' onChange={imgUrl} />
-                  <button onClick={sendForm}>submit</button>
+                  <button onClick={sendForm}>Combine</button>
               </form>
+              
+              <div className='ok'>
+                <svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1C9 0.447715 8.55228 -2.41411e-08 8 0C7.44772 2.41411e-08 7 0.447715 7 1L9 1ZM7.29289 27.7071C7.68342 28.0976 8.31658 28.0976 8.70711 27.7071L15.0711 21.3431C15.4616 20.9526 15.4616 20.3195 15.0711 19.9289C14.6805 19.5384 14.0474 19.5384 13.6569 19.9289L8 25.5858L2.34315 19.9289C1.95262 19.5384 1.31946 19.5384 0.928933 19.9289C0.538409 20.3195 0.538409 20.9526 0.928933 21.3431L7.29289 27.7071ZM7 1L7 27L9 27L9 1L7 1Z" fill="#505050"/>
+              </svg>
+              </div>
       </div>
       </div>
 
