@@ -4,19 +4,22 @@
 }
 
 
+
 .firstPage{
-    height: 95vh;
+    height: 91vh;
     width: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
-    
-    svg{
-        width: 110vw;
-        height: 110vw;
-        margin-top: -10vw;
+    .cloud{
+        display: flex;
+        margin: 0;
+        svg{
+            margin: 0;
+            width: 110vw;
+            margin-top: -12rem;
+        }
     }
 
     .headLine{
@@ -88,10 +91,13 @@
     
 }
 
-
+.cLine{
+    margin: 0;
+}
 
 .result{
-    top: 60rem;
+    top: 40vh;
+
     position: relative;
     display:flex;
     flex-direction:column;
@@ -100,37 +106,37 @@
     width:100%;
     height:100%;
     margin-top:2rem;
+    margin-bottom: 2rem;
 
     h1{
         position: absolute;
         font-size:1.5rem;
         font-weight:bold;
-        color:rgb(0, 0, 0);
+        color:rgb(0, 0, 0); 
         text-align:center;
         margin-bottom:2rem;
-        z-index: 1;
+        z-index: 3;
+        background-color: transparent;
     }
 
     img{
-        width: 50rem;
-        height: 40rem;
+        width: 30rem;
         position: absolute;
         border-radius:3%;
         margin-bottom:5rem;
-        z-index: 0;
+        z-index: 2;
         margin-left: 15rem;
     }
 
     div{
         position: absolute;
-        width: 500px;
-        height: 500px;
+        width: 30rem;
+        height: 30rem;
         border-radius:3%;
-        background-color: bisque;
+        background-color: rgb(255, 255, 255);
         margin-top: 5rem;
-        z-index: -1;
+        z-index: 1;
         margin-right: 20rem;
-
     }
 }
 
